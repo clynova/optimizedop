@@ -1,0 +1,32 @@
+{
+  "name": "optimizedop",
+  "version": "1.0.0",
+  "description": "Optimizador de imágenes para proyectos web, convierte automáticamente a WebP",
+  "main": "index.js",
+  "bin": {
+    "optimizedop": "./cli.js"
+  },
+  "scripts": {
+    "start": "node index.js",
+    "optimize": "node cli.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webp",
+    "image",
+    "optimization",
+    "web",
+    "performance"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "fs-extra": "^11.1.1",
+    "glob": "^10.2.0",
+    "path": "^0.12.7",
+    "sharp": "^0.32.0"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}
